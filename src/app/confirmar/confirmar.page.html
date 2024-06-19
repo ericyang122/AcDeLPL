@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Confira sua reserva</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ 
+  <ion-label>Temepratura media dos 4 meses {{valorFinal}}</ion-label><br>
+
+
+  <ion-list>
+    <ion-item *ngFor="let fruta of frutas">
+      {{ fruta }}
+    </ion-item>
+  </ion-list>
+</ion-content>

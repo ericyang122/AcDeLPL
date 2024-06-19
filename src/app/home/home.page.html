@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-label> Temperatura de Maio</ion-label>
+  <ion-range aria-label="TempMaio"
+  [pin]="true"  max="40"
+  [(ngModel)]="TempMaio"></ion-range>
+
+  <ion-label> Temperatura de junho</ion-label>
+  <ion-range aria-label="TempJunho"
+  [pin]="true" max="40"
+  [(ngModel)]="TempJunho"></ion-range>
+
+  <ion-label> Temperatuda de Julho</ion-label>
+  <ion-range aria-label="TempJulho"
+  [pin]="true" max="40"
+  [(ngModel)]="TempJulho"></ion-range>
+
+  <ion-label> Temperatura de Agosto</ion-label>
+  <ion-range aria-label="TempAgosto"
+  [pin]="true" max="40"
+  [(ngModel)]="TempAgosto"></ion-range>
+
+  <ion-button expand="block" (click)="calcularTemp()">ver</ion-button>
+</ion-content>

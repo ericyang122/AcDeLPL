@@ -1,0 +1,7 @@
+{
+  "name": "appReserva",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
