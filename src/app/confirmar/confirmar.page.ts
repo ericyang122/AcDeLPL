@@ -26,7 +26,7 @@ export class ConfirmarPage implements OnInit {
       return ['Morango', 'Abacaxi', 'Banana', 'Manga'];
     } else if (temp <= 25 && temp >= 15) {
       return ['Maçã', 'Pêra', 'Uva', 'Pêssego'];
-    } else if (temp >= 15 && temp < 10) {
+    } else if (temp <= 15 && temp >= 10) {
       return ['Laranja', 'Limão', 'Kiwi', 'Maracujá'];
     } else {
       return [' Não ha frutas que nasce nessa temperatura'];
